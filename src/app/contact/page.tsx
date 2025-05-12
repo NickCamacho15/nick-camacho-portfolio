@@ -40,7 +40,7 @@ export default function Contact() {
           </h2>
           
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Feel free to reach out if you have any questions or opportunities to discuss. I'm always open to connecting with fellow developers and potential collaborators.
+            Feel free to reach out if you have any questions or opportunities to discuss. I&apos;m always open to connecting with fellow developers and potential collaborators.
           </p>
           
           <div className="space-y-4">
@@ -170,7 +170,7 @@ export default function Contact() {
                 Thank You!
               </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Your message has been received. I'll get back to you as soon as possible.
+                Your message has been received. I&apos;ll get back to you as soon as possible.
               </p>
               <button
                 onClick={() => setFormSubmitted(false)}

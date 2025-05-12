@@ -1,11 +1,6 @@
 import Image from "next/image";
 
 export default function About() {
-  const skills = [
-    "Java", "Spring Boot", "Express.js", "PostgreSQL", "MongoDB", 
-    "React.js", "Vue.js", "HTML", "CSS", "TypeScript", "Next.js", "Tailwind CSS"
-  ];
-
   // Categorize skills for better presentation
   const skillCategories = {
     "Languages": ["Java", "TypeScript", "HTML", "CSS"],
@@ -40,9 +35,9 @@ export default function About() {
           {/* Bio and Technical Skills */}
           <div className="md:col-span-2">
             <p className="text-lg text-gray-200 leading-relaxed mb-6">
-              I'm a Columbus-based full stack developer with a background in HVAC and customer service. 
-              I completed full stack bootcamps through Tech Elevator and OSU, and I'm currently earning 
-              my Associate's in Computer & Information Science at Columbus State.
+              I&apos;m a Columbus-based full stack developer with a background in HVAC and customer service. 
+              I completed full stack bootcamps through Tech Elevator and OSU, and I&apos;m currently earning 
+              my Associate&apos;s in Computer & Information Science at Columbus State.
             </p>
             
             {/* Technical Skills Section - Moved higher */}

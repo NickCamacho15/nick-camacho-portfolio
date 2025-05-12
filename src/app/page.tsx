@@ -23,7 +23,7 @@ export default function Home() {
                 <FaLaptopCode className="inline-block text-blue-400 animate-pulse" />
                 <span className="absolute -top-1 -right-1 w-2 h-2 bg-blue-400 rounded-full animate-ping"></span>
               </span>
-              <span>Hi, I'm Nick Camacho</span>
+              <span>Hi, I&apos;m Nick Camacho</span>
             </div>
             <span className="text-blue-400 mt-2">
               Full Stack Developer
